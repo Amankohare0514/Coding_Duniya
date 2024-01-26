@@ -2,49 +2,43 @@ import React from "react"
 
 function Navbar() {
   return (
-    <nav className="bg-[#0052cc] p-4">
-      <div className="container mx-auto flex items-center justify-between">
-        <a className="flex items-center" href="#">
-          <img
-            alt="Logo"
-            className="h-10 w-10 mr-3"
-            height="40"
-            src="duniyalogo.png"
-            style={{
-              aspectRatio: "40/40",
-              objectFit: "cover",
-            }}
-            width="40"
-          />
+    <nav className="bg-[#0052cc] ">
+    <div className="container mx-auto flex items-center justify-between">
+      <a className="flex items-center" href="#">
+        <img
+          alt="Logo"
+          className="h-[100px] w-[150px] mr-3"  
+          src="duniyalogo.png" 
+        />
         </a>
         <div className="lg:flex items-center hidden">
           <ul className="flex space-x-8 mr-8">
             <li>
-              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white" href="#">
+              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
                 Home
               </a>
             </li>
             <li>
-              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white" href="#">
+              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
                 About Us
               </a>
             </li>
             <li>
-              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white" href="#">
+              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
                 Services
               </a>
             </li>
             <li>
-              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white" href="#">
+              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
                 Contact Us
               </a>
             </li>
           </ul>
-          <button className="bg-[#3385ff] text-white font-semibold py-2 px-4 rounded-full shadow-md">
+          <button className="bg-[#3385ff] hover:bg-stone-200 hover:text-black text-white font-semibold py-2 px-4 rounded-full shadow-md">
             Request a free quote
           </button>
         </div>
-        <div className="lg:hidden flex items-center">
+        <div className="lg:hidden flex items-center pr-8">
           <button className="text-white">
             <svg
               className="h-6 w-6"

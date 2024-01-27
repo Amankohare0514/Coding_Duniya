@@ -1,7 +1,7 @@
 import React from "react"
 function Home() {
     return (
-        <div className="bg-[#2c54ea]">
+        <div className="bg-[#2c55eaf6]">
             <div className="container mx-auto px-4 py-12 md:flex md:items-center md:justify-between md:py-24">
                 <div className="space-y-6 text-white md:w-1/2">
                     <div className="text-sm uppercase tracking-widest">hey everyone</div>

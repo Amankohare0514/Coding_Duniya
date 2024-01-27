@@ -7,34 +7,34 @@ function Navbar() {
       <a className="flex items-center" href="#">
         <img
           alt="Logo"
-          className="h-[100px] w-[150px] mr-3"  
+          className="h-[90px] w-[150px] mr-3"  
           src="duniyalogo.png" 
         />
         </a>
         <div className="lg:flex items-center hidden">
           <ul className="flex space-x-8 mr-8">
             <li>
-              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
-                Home
+              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
+              Services
               </a>
             </li>
             <li>
-              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
+              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
                 About Us
               </a>
             </li>
             <li>
-              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
-                Services
+              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
+              Courses
               </a>
             </li>
             <li>
-              <a className="text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
-                Contact Us
+              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
+               Projects
               </a>
             </li>
           </ul>
-          <button className="bg-[#3385ff] hover:bg-stone-200 hover:text-black text-white font-semibold py-2 px-4 rounded-full shadow-md">
+          <button className="bg-[#3385ff] hover:bg-stone-200 hover:text-black text-gray-200 font-semibold py-2 px-4 rounded-full shadow-md">
             Request a free quote
           </button>
         </div>

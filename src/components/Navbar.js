@@ -1,41 +1,55 @@
+import { Link } from "react-router-dom"
 import React from "react"
 
 function Navbar() {
   return (
     <nav className="bg-[#0052cc] ">
     <div className="container mx-auto flex items-center justify-between">
-      <a className="flex items-center" href="#">
+      <Link to="/">
+      <a className="flex items-center" >
         <img
           alt="Logo"
           className="h-[90px] w-[150px] mr-3"  
           src="duniyalogo.png" 
         />
         </a>
+        </Link>
         <div className="lg:flex items-center hidden">
           <ul className="flex space-x-8 mr-8">
             <li>
-              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
-              Services
+            <Link to="/services">
+              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" >
+             Services
               </a>
+             </Link>
+            
             </li>
             <li>
-              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
+              <Link to="/about">
+              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold">
                 About Us
               </a>
+              </Link>
             </li>
             <li>
-              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
+              <Link to="/courses">
+              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" >
               Courses
               </a>
+              </Link>
             </li>
             <li>
-              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold" href="#">
+             <Link to="/projects">
+              <a className="text-gray-200 hover:text-white text-sm font-semibold border-b-2 border-transparent hover:border-white hover:font-bold">
                Projects
               </a>
+              </Link>
             </li>
           </ul>
           <button className="bg-[#3385ff] hover:bg-stone-200 hover:text-black text-gray-200 font-semibold py-2 px-4 rounded-full shadow-md">
-            Request a free quote
+      <Link to="/contact">
+      Contact Us
+      </Link>     
           </button>
         </div>
         <div className="lg:hidden flex items-center pr-8">

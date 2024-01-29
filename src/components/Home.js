@@ -2,6 +2,7 @@ import React from "react"
 import Clients from "./Clients"
 import OurSerives from "./OurServices"
 import WhyUs from "./WhyUs"
+import Thanks from "./Thanks"
 function Home() {
     return (
         <>
@@ -31,6 +32,7 @@ function Home() {
         <Clients/>
         <WhyUs/>
         <OurSerives/>
+        <Thanks/>
         </>
     )
 }

@@ -4,17 +4,7 @@ export default function WhyUs() {
     <>
     <div className="bg-[#2c55eaf6] text-white p-8">
       <h2 className="text-4xl font-bold mb-8 text-center">Why Choose Us</h2>
-      <div className="flex flex-col lg:flex-row lg:space-x-8">
-        <div className="lg:w-1/2">
-          <img
-            alt="Isometric graphics"
-            className="mb-4"
-            height="400"
-            src="whyuslogo.png"
-            width="600"
-          />
-        </div>
-        <div className="lg:w-1/2 mt-8 lg:mt-0">
+        <div className="text-center  md:mx-0">
           <p className="text-xl">
           Coding Duniya is a vibrant online platform that revolutionizes the way individuals learn and engage
            with coding. This dynamic website offers users a plethora of free courses, providing a gateway 
@@ -27,7 +17,7 @@ export default function WhyUs() {
           </p>
         </div>
       </div>
-    </div>
+
     </>
   )
 }
